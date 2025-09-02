@@ -1,5 +1,7 @@
+// Tarifeler Degiskeni //
 const recipes = [];
 
+// Search#'ine Erisme.
 const search = document.getElementById("search");
 search.addEventListener("input", (e) => {
   let keyword = e.target.value.toLowerCase();
